@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 import Karakter from "./components/Karakter";
-import Accordeon from "./components/Accordeon";
+
 
 const App = () => {
   const [characters, setCharacters] = useState([]);
